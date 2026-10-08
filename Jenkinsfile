@@ -15,15 +15,16 @@ pipeline {
             }
         }
 
-        stage('Build Successful') {
+        stage('Test Docker') {
             steps {
-                echo 'React application built successfully!'
+                bat 'docker --version'
             }
         }
-    }
-}
-stage('Test Docker') {
-    steps {
-        bat 'docker --version'
+
+        stage('Build Successful') {
+            steps {
+                echo 'React application and Docker are ready!'
+            }
+        }
     }
 }
