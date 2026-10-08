@@ -1,4 +1,5 @@
 node {
+
     stage('Install Dependencies') {
         bat 'npm ci'
     }
@@ -7,11 +8,11 @@ node {
         bat 'npm run build'
     }
 
-    stage('Test Docker') {
-        bat '"C:\\DockerCLI\\docker.exe" --version'
+    stage('Docker Build') {
+        bat '"C:\\DockerCLI\\docker.exe" build -t sih-app .'
     }
 
     stage('Build Successful') {
-        echo 'Build completed successfully!'
+        echo 'Jenkins CI + Docker build completed successfully!'
     }
 }
