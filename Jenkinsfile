@@ -1,5 +1,9 @@
 node {
 
+    stage('Checkout') {
+        checkout scm
+    }
+
     stage('Install Dependencies') {
         bat 'npm ci'
     }
