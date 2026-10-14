@@ -106,7 +106,3 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 ## 🔬 Prototype Scope
 
 This project is a **functional hackathon proof of concept** designed for clear demonstration of security event correlation. It does not replace enterprise SIEMs or production EDR platforms.
-
-
-
-testing
