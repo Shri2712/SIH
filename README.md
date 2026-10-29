@@ -2,7 +2,6 @@
 
 > **Security Event Correlation & Attack Chain Detection Prototype**  
 > A lightweight, interactive hackathon proof of concept demonstrating how disparate cybersecurity alerts correlate into actionable security incidents.
-
 ---
 
 ## 📌 Problem
