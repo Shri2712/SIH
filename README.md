@@ -9,7 +9,6 @@
 Modern security operations centers (SOCs) receive thousands of fragmented alerts daily. When viewed in isolation, individual alerts (such as a single failed login or an isolated file download) often appear benign or low priority. Consequently, complex multi-stage attack chains slip past analysts until severe damage or data exfiltration has already occurred.
 
 ---
-
 ## 💡 Solution
 
 **Cyber Correlation Agent** ingests raw security telemetry and applies rule-based heuristic correlation across:
